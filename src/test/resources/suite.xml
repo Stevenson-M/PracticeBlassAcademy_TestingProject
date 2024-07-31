@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test suite ESPN">
+
+    <listeners>
+        <listener class-name="utilities.Listener"/>
+    </listeners>
+
+    <test name="Basic Tests" enabled="true" >
+        <classes>
+            <class name="tests.BasicTests"/>
+        </classes>
+    </test>
+
+    <test name="Verify SauceDemo Login Error Message Test" enabled="true" >
+        <classes>
+            <class name="tests.VerifySauceDemoLoginErrorMessageTest"/>
+        </classes>
+    </test>
+
+    <test name="Verify SauceDemo Page Test" enabled="true" >
+        <classes>
+            <class name="tests.VerifySauceDemoPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Verify SauceDemo Shopping Page Test" enabled="true" >
+        <classes>
+            <class name="tests.VerifySauceDemoShoppingPageTest"/>
+        </classes>
+    </test>
+
+</suite>
